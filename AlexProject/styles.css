@@ -1,0 +1,123 @@
+input[type=text], select, input[type=password] {
+    width: 21%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 30%;
+    background-color: #a74caf;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #a74caf;
+  }
+  
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Remove space between borders */
+    margin: 20px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Header Styles */
+th {
+    background-color: #c044de; /* Green background for headers */
+    color: white; /* White text color */
+    padding: 12px; /* Padding for header cells */
+    text-align: left; /* Align text to the left */
+    border: 1px solid #ddd; /* Light grey border */
+}
+
+.custom-header {
+  background-color: #21843d; 
+}
+
+.custom-header-blue {
+  background-color: #2c4bb1; 
+}
+
+/* Row Styles */
+tr {
+    transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light grey for even rows */
+}
+
+tr:hover {
+    background-color: #ddd; /* Highlight row on hover */
+}
+
+/* Cell Styles */
+td {
+    padding: 12px; /* Padding for data cells */
+    border: 1px solid #ddd; /* Light grey border */
+    text-align: left; /* Align text to the left */
+    vertical-align:top;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    table {
+        width: 100%;
+    }
+    th, td {
+        padding: 10px; /* Smaller padding for mobile */
+    }
+}
+
+.inline-form {
+  display: flex;          /* Use flexbox for horizontal alignment */
+  align-items: center;    /* Center items vertically */
+}
+
+.container {
+  display: flex;         /* Enables flexbox layout */
+  justify-content: space-between; /* Optional: space between items */
+}
+
+.container2 {
+  display: flex;         /* Enables flexbox layout */
+  justify-content: space-between; /* Optional: space between items */
+}
+
+.box {
+  width: 48%;           /* Each box takes up about half the width, with some space */
+  background-color: #f0f0f0; /* Light gray background for visibility */
+  padding: 20px;       /* Adds some padding */
+  box-sizing: border-box; /* Ensures padding is included in the total width */
+}
+
+.box2 {
+  width: 50%;           /* Each box takes up about half the width, with some space */
+  color: #ffffff;
+  background-color: #000000; /* Light gray background for visibility */
+  padding: 20px;       /* Adds some padding */
+  box-sizing: border-box; /* Ensures padding is included in the total width */
+}
